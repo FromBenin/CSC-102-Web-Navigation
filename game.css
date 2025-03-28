@@ -87,18 +87,6 @@ button:hover {
     transition-duration: .6s;
 }
 
-@media(max-width: 767px){
-    .footer-col{
-        width: 50%;
-}
-}
-
-@media(max-width: 574px){
-    .footer-col{
-        width: 100%;
-}
-}
-
 @media (max-width: 720px){
 
     .navbar{
