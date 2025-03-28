@@ -23,6 +23,7 @@ function VALIDATION() {
     // While this if statement will execute if the user's name and zip code are valid and will display the secret message if they are.
     if ((fullName.length <= 20) && (zipCode < 99999) && (zipCode > 9999) && (zipCode > 999) && (zipCode > 99)) {
         message = "You are ACCEPTED!";
+        // This redirects the page if the user's input is valid
         document.getElementById("redirect").click();
     }
 
