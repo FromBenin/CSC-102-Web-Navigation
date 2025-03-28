@@ -1,0 +1,59 @@
+<!-- 
+ Name: Nosa Erhabor
+ Date: 7 March 2025 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- My html Header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <!-- Including my JavaScript file -->
+    <script src="submit.js"></script>
+    <!-- Including my style sheets file -->
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+    <h1>PALINDROME CHECKER</h1>
+    </header>
+    <menu>
+        <!-- This is the <nav> tag, this tag will contain the navigation links inside a website. -->
+        <nav> 
+            <br>
+            <!-- This is a subheading for the navigation section -->
+            <h2>NAVIGATION</h2>
+            <br>
+            <div class="navbar">
+                <!-- The <ul> tag is an unordered list tag, this tag uses bulletpoints for creating a list, while the ordered list tag (<ol>) uses numbers -->
+                <ul>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\index.html" id="home">Home</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\boards.html" id="board">Objectives</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\table.html">UAT Degrees</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\JavaScript\game.html">Magic 8 Ball</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\Forms\Palindrome\palin.html">Palindrome Checker</a></li>
+                </ul>
+            </div>
+        </nav>
+    </menu>
+
+    <p id="paragraph">A palindrome is a word, phrase, or any sequence of characters that is spelled the the same forward and backward (ignoring white-spaces, punctuation, and capitalization).</p>
+    <br>
+
+    <!-- The tag I included below is a form tag which is created to accept user input from a webpage -->
+    <form name="Palindrome" onsubmit="return PALINDROME()" method="post">
+
+        <!-- I added an input, which creates the place where the user can place an input, whether it a word or a sequence of characeters, on a webpage -->
+        <p id="phrase">Words/Phrase: <input type="text" size="65" name="String" placeholder="Enter any word, phrase or sequence of characters of your choice"></p>
+        <br>
+
+        <!-- I made a paragraph tag and gave it an id so that the result of the palindrome checker can be displayed -->
+        <p id="result"></p>
+        <br>
+
+        <!-- I created another input tag for the submit buuton. Input tags can also be used to create a button for submitting or reseting the form input -->
+        <p><input type="submit" name="Submit" value="Check"></p>
+    </form>
+</body>
+</html>
