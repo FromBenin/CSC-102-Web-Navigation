@@ -70,7 +70,15 @@ img {
     border-radius: 10px;
 }
 
-/* This is adjust the display of the webpage when it is resized */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: black;
+    color: #f51717;
+    font-size: 16px;
+}
+
+/* This is to adjust the display of the webpage when it is resized */
 @media (max-width: 720px){
 
     .navbar{
