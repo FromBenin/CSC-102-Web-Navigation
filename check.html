@@ -1,0 +1,47 @@
+<!-- 
+ Name: Nosa Erhabor
+ Date: 7 March 2025
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Adding my html Header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <!-- I wll now link my JavaScript file -->
+    <script src="user.js"></script>
+    <!-- And my CSS stylesheet -->
+    <link rel="stylesheet" href="valid.css">
+</head>
+<body>
+    <header>
+    <h1>Please Log In</h1>
+    </header>
+
+    <nav>
+        <a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\index.html" id="redirect" style="display:none;"></a>
+    </nav>
+
+    <!-- I added a form tag to contain the user's input -->
+    <form name="UserValidation" onsubmit="return VALIDATION()" method="post">
+        <!-- The first input I added will contain the first and last name of the user -->
+        <p>Name: <input type="text" size="25" name="FName" placeholder="First Name"> <input type="text" size="25" name="LName" placeholder="Last Name"></p>
+        <!-- The next line of code will display an error message if the input above is empty when submitted or does not contain enough characters -->
+        <p id="name"></p>
+        <br>
+
+        <!-- The second input I added below will contain the zip code of the user's state or city or residence -->
+        <p>Zip Code: <input type="number" name="Zip" placeholder="Enter your Zip Code"></p>
+        <!-- The paragraph tag I added below will display an error if the zip code entered is invalid or not long enough -->
+        <p id="code"></p>
+        <br>
+
+        <!-- The input tag below is the submit button -->
+        <p><input type="submit" name="Submit" value="Validate"></p>
+    </form>
+
+    <!-- I added a paragraph tag and gave it an id so that the secret message can be displayed after the form has accepted the user's input -->
+    <p id="secret"></p>
+</body>
+</html>

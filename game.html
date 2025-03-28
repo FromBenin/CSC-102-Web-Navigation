@@ -1,0 +1,49 @@
+<!-- 
+ Name: Nosa Erhabor
+ Date: 29 February 2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <!-- The script tag is the link between html and javascript, it allows the html to call functions
+    and thru ids allows the javascript to update the html page.-->
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    
+    <header>
+        <!-- The h1 tag is a heading tag, it is used to display a heading on the page -->
+        <h1>Welcome to The Magic 8 Ball</h1>
+    </header>
+    <menu>
+        <!-- This is the <nav> tag, the purpose of this tag is to provide navigation links inside a website. -->
+        <nav>
+            <br>
+            <!-- This is a subheading for the navigation section -->
+            <h2>NAVIGATION</h2>
+            <br>
+            <div class="navbar">
+                <!-- The <ul> tag is an unordered list tag, this tag uses bulletpoints for creating a list, while the ordered list tag (<ol>) uses numbers -->
+                <ul>
+                    <!-- The <li> tag is a list tag, it is put inside and unordered or ordered (<ul>, <ol>) tag. The <a> tag is an anchor tag, this will allow the user to go to other pages that are in a website -->
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\index.html">Home</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\boards.html">Objectives</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\The Foundation\table.html">UAT Degrees</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\JavaScript\game.html">Magic 8 Ball</a></li>
+                    <li><a href="C:\Users\hp\Desktop\School\Spring 2025\CSC102 - Introduction to Programming\Assignments\Web Navigation and Tables\Forms\Palindrome\palin.html">Palindrome Checker</a></li>
+                </ul>
+            </div>
+        </nav>
+    </menu>
+    <p><img id="ball" src="GameImages/magic8ball2.jpg" alt="Magic 8 Ball"></p>
+    <!-- The next line displays the answer given by the 8-ball. -->
+    <br>
+    <p id="answer"></p>
+    <br>
+    <!-- Button to shake the Magic 8 Ball. -->
+    <p><button onclick="shakeBall()">Shake the Magic 8 Ball</button></p>
+</body>
+</html>
