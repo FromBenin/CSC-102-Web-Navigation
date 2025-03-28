@@ -1,4 +1,3 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* Body styling */
 body {
     background-color: #f4f4f4;
     text-align: center;
@@ -20,7 +18,6 @@ body {
     background-size: cover;
 }
 
-/* Header Styling */
 header {
     background: #333;
     color: #18e711;
@@ -33,7 +30,6 @@ h2 {
     color: #1ceeeeb9;
 }
 
-/* Navigation Styling */
 .navbar {
     display: flex;
     justify-content: center;
@@ -62,43 +58,19 @@ h2 {
     background-color: lawngreen;
 }
 
-/* Paragraph styling */
 p {
     margin-top: 20px;
     font-size: 18px;
     color: #eff30c;
 }
 
-/* Image styling */
 img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-/* Footer styling */
-footer {
-    margin-top: 20px;
-    padding: 20px;
-    background: black;
-    color: #f51717;
-    font-size: 16px;
-}
-
-@media(max-width: 767px){
-    .footer-col{
-        width: 50%;
-}
-}
-
-@media(max-width: 574px){
-    .footer-col{
-        width: 100%;
-}
-}
-
-
-
+/* This is adjust the display of the webpage when it is resized */
 @media (max-width: 720px){
 
     .navbar{
